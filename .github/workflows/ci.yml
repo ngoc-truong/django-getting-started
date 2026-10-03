@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Platzhalter
-        run: echo "Workflow läuft – noch keine Tests konfiguriert."
+      - name: placeholder-name
+        run: echo "Workflow is running - no tests were configured yet."

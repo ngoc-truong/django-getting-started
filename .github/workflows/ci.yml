@@ -9,7 +9,8 @@ on:
       - main
 
 jobs:
-  placeholder:
+  ci:
+    name: CI
     runs-on: ubuntu-latest
 
     steps:

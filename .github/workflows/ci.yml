@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: placeholder-name
+        run: echo "Workflow is running - no tests were configured yet."
